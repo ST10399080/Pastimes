@@ -173,7 +173,7 @@ npm start
 
 1. Create An Account.
 2. Log In To Your Profile.
-3. Browse Available Clothing Items.
+3. Browse Available Clothing Items Or Any Page Of Interest.
 4. List Your Own Items For Sale.
 5. Purchase Items Securely Through The Platform.
 
