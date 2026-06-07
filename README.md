@@ -151,7 +151,6 @@ Pastimes Exists to Make Buying and Selling Second-Hand Clothing in Mint Conditio
 
 * PHP
 * CSS
-* JavaScript
 
 #### 🗄️ Database
 
