@@ -194,7 +194,7 @@ npm start
 - Moderate Listings
 - Monitor Platform Activity
 
-## 🧑‍💻 Developers
+## 🧑‍💻 Developers/Contributors
 
 * Fezile Jam-Jam (ST10399080)
 * Ofentse Moremi (fEmi2024)
@@ -203,4 +203,18 @@ npm start
 
 This Project Is Licensed Under The MIT License.
 
-## 🖼️ Screenshots
+## 🖼️ UI Screenshots
+
+<p align="Left">
+  <img width="681" height="380" alt="Screenshot 2026-04-14 224735" src="https://github.com/user-attachments/assets/94cc2e6e-f9a8-42fb-a132-53843693cbcc" />
+
+  <img width="679" height="387" alt="Screenshot 2026-04-14 224848" src="https://github.com/user-attachments/assets/7c19ce16-13a5-4f60-b1f4-26c50d0a20ca" />
+  
+  <img width="733" height="415" alt="Screenshot 2026-04-14 224219" src="https://github.com/user-attachments/assets/411285b5-7ac5-4449-95ac-4ee78f57dd36" />
+  
+  <img width="732" height="413" alt="Screenshot 2026-04-14 224255" src="https://github.com/user-attachments/assets/c5cb990d-5104-41b6-b48f-91e281cca474" />
+  
+  <img width="738" height="436" alt="Screenshot 2026-04-14 225818" src="https://github.com/user-attachments/assets/ddaa1e99-bd05-4168-bef2-ba945decceaf" />
+  
+  <img width="691" height="376" alt="Screenshot 2026-04-14 225019" src="https://github.com/user-attachments/assets/aad7068f-a73d-43cd-ab43-7e324a5e8610" />
+</p>
