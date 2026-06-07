@@ -203,9 +203,9 @@ npm start
 
 ## 📄 License
 
-## ▶️ Demo
-
 This Project Is Licensed Under The MIT License.
+
+## ▶️ Demo
 
 ## 🖼️ UI Screenshots
 
