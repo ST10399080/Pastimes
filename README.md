@@ -9,202 +9,198 @@
 
 Pastimes Is A Online Store Created For The To Sale And Purchase Second-Hand Clothing That Is Still In Mint Condition. The Goal Of Pastimes Is To Make It Easier And Effortless For Our Users To Sell and Buy Second-Hand Clothes Online.
 
-Pastimes Exists to Make Buying and Selling Second-Hand Clothing in Mint Condition Simple, Trustworthy and Stylish. Our Goal IIs to Extend The Lifecycle of Quality Fashion by Connecting People Who Want to Refresh Their Wardrobes With Those Ready to Pass On Pieces They No Longer Wear. By Focusing On Well-Kept Items and A Smooth User Experience, Pastimes Encourages More Sustainable Shopping Habits While Keeping Fashion Accessible, Affordable, and Circular.
+Pastimes Exists to Make Buying and Selling Second-Hand Clothing in Mint Condition Simple, Trustworthy and Stylish. Our Goal IIs to Extend The Lifecycle of Quality Fashion by Connecting People Who Want to Refresh Their Wardrobes With Those Ready to Pass On Pieces They No Longer Wear. By Focusing On Well-Kept Items and A Smooth User Experience, Pastimes Encourages More Sustainable Shopping Habits While Keeping Fashion Accessible, Affordable and Circular.
+
+## Objectives
+
+* Promote Sustainable Fashion
+* Reduce Clothing Waste
+* Provide An Affordable Shopping Alternative
+* Enable Users To Easily Buy and Sell Quality Second-Hand Clothing
+* Create A Trusted Marketplace For Pre-Owned Fashion
 
 ## Features
 
-You can add the following section to your README:
-
-### 🚀 Features
-
 #### 👤 User Account & Authentication
 
-* 🔐 User registration with email and password
-* 🔑 Secure login and logout functionality
-* 👤 Personal profile management
-* 🖼️ Profile picture upload
-* 📍 Address management
+* 🔐 User Registration With Email and Password
+* 🔑 Secure Login and Logout Functionality
+* 👤 Personal Profile Management
+* 🖼️ Profile Picture Upload
+* 📍 Address Management
 
 #### 👕 Product Listing (Seller Features)
 
-* 📸 Upload multiple high-quality product images
-* 📝 Add product title, description, and condition
-* 🏷️ Select brand, size, category, and price
-* ⭐ Tag item condition (New, Like New, Good, Fair)
-* ✏️ Edit existing listings
-* 🗑️ Delete listings
-* ✅ Mark items as sold
+* 📸 Upload Multiple High-Quality Product Images
+* 📝 Add Product Title, Description and Condition
+* 🏷️ Select Brand, Size, Category and Price
+* ⭐ Tag Item Condition (New, Like New, Good, Fair)
+* ✏️ Edit Existing Listings
+* 🗑️ Delete Listings
+* ✅ Mark Items As Sold
 
 #### 📊 Seller Dashboard
 
-* 📋 View active listings
-* 💰 Track earnings and sales performance
-* 📦 View sold items
-* ⚙️ Manage product listings and prices
+* 📋 View Active listings
+* 💰 Track Earnings and Sales Performance
+* 📦 View Sold Items
+* ⚙️ Manage Product listings and Prices
 
 #### 🛍️ Product Browsing (Buyer Features)
 
 * 🔎 Keyword-based product search
-* 🏷️ Search by brand
-* 📂 Search by category
-* 👀 Browse detailed product listings
+* 🏷️ Search By Brand
+* 📂 Search By Category
+* 👀 Browse Detailed Product Listings
 
 #### 🎯 Advanced Search & Filtering
 
-* 📏 Filter by size
-* 🏷️ Filter by brand
-* 💵 Filter by price range
-* ⭐ Filter by condition
-* 🎨 Filter by color
-* 📂 Filter by category
-* 📈 Sort by newest arrivals
-* 🔥 Sort by popularity
-* 💲 Sort by price (low to high/high to low)
+* 📏 Filter By Size
+* 🏷️ Filter By Brand
+* 💵 Filter By Price Range
+* ⭐ Filter By Condition
+* 🎨 Filter By Color
+* 📂 Filter By Category
+* 📈 Sort By Newest Arrivals
+* 🔥 Sort By Popularity
+* 💲 Sort By Price (Low To High/High To Low)
 
 #### 📄 Product Detail Pages
 
-* 🖼️ Multiple product images with zoom functionality
-* 📝 Detailed product descriptions
-* 👤 Seller information
-* ⭐ Item condition details
-* 💰 Product pricing
-* 🛒 Add-to-cart functionality
+* 🖼️ Multiple Product Images With Zoom Functionality
+* 📝 Detailed Product Descriptions
+* 👤 Seller Information
+* ⭐ Item Condition Details
+* 💰 Product Pricing
+* 🛒 Add-to-cart Functionality
 
 #### 🛒 Shopping & Checkout
 
-* ➕ Add items to cart
-* ➖ Remove items from cart
-* 📝 Update cart quantities
-* 💳 Secure payment processing
-* 💰 Multiple payment methods (Card, PayPal, etc.)
-* ✅ Order confirmation system
+* ➕ Add Items To Cart
+* ➖ Remove Items From Cart
+* 📝 Update Cart Quantities
+* 💳 Secure Payment Processing
+* 💰 Multiple Payment Methods (Card, PayPal, etc.)
+* ✅ Order Confirmation System
 
 #### 📦 Order Management
 
-* 📜 View order history
-* 🚚 Track order status
-* ❌ Cancel orders
-* 📊 Manage purchases in one place
+* 📜 View Order History
+* 🚚 Track Order Status
+* ❌ Cancel Orders
+* 📊 Manage Purchases In One Place
 
 #### 💬 Communication Features
 
-* 💌 Direct messaging between buyers and sellers
-* ❓ Ask questions about listed items
-* 🔔 Real-time notifications and alerts
-* 📦 Order status updates
-* 💰 Sale notifications
-* ✉️ Message notifications
+* 💌 Direct Messaging Between Buyers and Sellers
+* ❓ Ask Questions About Listed Items
+* 🔔 Real-time Notifications and Alerts
+* 📦 Order Status Updates
+* 💰 Sale Notifications
+* ✉️ Message Notifications
 
 #### ⭐ Trust & Safety
 
-* 🌟 Buyer reviews and feedback
-* 🏅 Seller ratings system
-* 🤝 Build trust within the marketplace community
+* 🌟 Buyer Reviews and Feedback
+* 🏅 Seller Ratings System
+* 🤝 Build Trust Within the Marketplace Community
 
 #### 📦 Clean Out Kit Service
 
-* 📬 Request a prepaid Clean Out Kit
-* 👕 Send unwanted clothing for evaluation and resale
-* ♻️ Promote sustainable fashion and clothing reuse
+* 📬 Request a Prepaid Clean Out Kit
+* 👕 Send Unwanted Clothing For Evaluation and Resale
+* ♻️ Promote Sustainable Fashion and Clothing Reuse
 
 #### 🖥️ Admin Dashboard
 
-* 📈 Overview of platform activity
-* 👥 User management and monitoring
-* 💰 Sales and transaction reporting
-* 📦 Listing management and moderation
+* 📈 Overview Of Platform Activity
+* 👥 User Management and Monitoring
+* 💰 Sales and Transaction Reporting
+* 📦 Listing Management and Moderation
 
 #### 👮 Administrative Controls
 
-* 👤 View and manage user accounts
-* 🚫 Suspend or ban users
-* ✏️ Edit user information
-* ✅ Approve product listings
-* 🗑️ Remove inappropriate content
-* 💳 Monitor transactions and refunds
-* ⚖️ Resolve buyer-seller disputes
+* 👤 View and Manage User Accounts
+* 🚫 Suspend Or Ban Users
+* ✏️ Edit User Information
+* ✅ Approve Product Listings
+* 🗑️ Remove Inappropriate Content
+* 💳 Monitor Transactions and Refunds
+* ⚖️ Resolve Buyer-Seller Disputes
 
 #### ⚙️ Technical Features
 
-* 🗄️ Secure database management
-* 🔒 Secure user authentication
-* 💳 Payment gateway integration
-* ☁️ Cloud-based image storage
-* 📱 Fully responsive design for desktop, tablet, and mobile devices
-* ⚡ Fast and optimized image loading
-* 📊 Responsive user and seller dashboards
+* 🗄️ Secure Database Management
+* 🔒 Secure User Authentication
+* 💳 Payment Gateway Integration
+* ☁️ Cloud-Based Image Storage
+* 📱 Fully Responsive Design For Desktop, Tablet, and Mobile Devices
+* ⚡ Fast and Optimized Image Loading
+* 📊 Responsive User and Seller Dashboards
 
 #### 🌱 Sustainability Focus
 
-* ♻️ Encourage clothing reuse and recycling
-* 👕 Extend the lifecycle of quality fashion items
-* 🌍 Reduce textile waste through circular fashion
-* 💚 Support eco-friendly shopping habits
+* ♻️ Encourage Clothing Reuse and Recycling
+* 👕 Extend The Lifecycle Of Quality Fashion Items
+* 🌍 Reduce Textile Waste Through Circular Fashion
+* 💚 Support Eco-Friendly Shopping Habits
 
-## Objectives
+## 🛠️ Tech Stack
 
-* Promote sustainable fashion
-* Reduce clothing waste
-* Provide an affordable shopping alternative
-* Enable users to easily buy and sell quality second-hand clothing
-* Create a trusted marketplace for pre-owned fashion
-
-## Tech Stack
-
-#### Frontend 
+#### 🖥️ Frontend 
 
 * PHP
 * CSS
 * JavaScript
 
-#### Database
+#### 🗄️ Database
 
 * MySQL
 
-## Installation
+## ⬇️ Installation
 
-1. Clone the repository
-2. Navigate to the project folder
-3. Install dependencies
+1. Clone The Repository
+2. Navigate To The Project Folder
+3. Install Dependencies
 
 npm install
 
-4. Start the application
+4. Start The Application
 
 npm start
 
-## Usage
+## ⚙️ Usage
 
-1. Create an account.
-2. Log in to your profile.
-3. Browse available clothing items.
-4. List your own items for sale.
-5. Purchase items securely through the platform.
+1. Create An Account.
+2. Log In To Your Profile.
+3. Browse Available Clothing Items.
+4. List Your Own Items For Sale.
+5. Purchase Items Securely Through The Platform.
 
-## User Roles
+## 👨‍💼 User Roles
 
-### Buyer
-- Browse products
-- Purchase items
-- Manage orders
+### 🛍️ Buyer
+- Browse Products
+- Purchase Items
+- Manage Orders
 
-### Seller
-- List products
-- Manage listings
-- Track sales
+### 🛒 Seller
+- List Products
+- Manage Listings
+- Track Sales
 
-### Administrator
-- Manage users
-- Moderate listings
-- Monitor platform activity
+### 🧑‍💼 Administrator
+- Manage Users
+- Moderate Listings
+- Monitor Platform Activity
 
-## Developers
+## 🧑‍💻 Developers
 
 * Fezile Jam-Jam (ST10399080)
 * Ofentse Moremi (fEmi2024)
 
-## License
+## 📄 License
 
-This project is licensed under the .
+This Project Is Licensed Under The MIT License.
 
-## Screenshots
+## 🖼️ Screenshots
