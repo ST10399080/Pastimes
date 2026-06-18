@@ -26,7 +26,7 @@ $image_path = "upload/".$_FILES["image"]["name"];
 //Then Store The Details
 $query ="insert into goods values(null,'$name','$desc','$price','$image_path');";
 
-$stored = mysqli_query($connect , $query);
+$stored = mysqli_query($conn , $query);
 
 //Check If Failed Or Not
 if($stored){
