@@ -11,7 +11,7 @@
 
 <!--Asking The User For Password, Creating The Password Label And Input Field-->
 <label>Password: </label>
-<input type="password" name="password" required> <br><br>
+<input type="password" name="password" required minlength="8"> <br><br>
 
 <!--Button For Input-->
 <input type="submit" name="login" value="Login">
