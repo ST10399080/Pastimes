@@ -10,7 +10,7 @@ $password=(string) "";
 //The Database
 $database =(string) "ClothingStore";
 //Then Port Number
-$port = int 3306;
+$port = (int) 3306;
 
 //Executing The Connection
 $connect = mysqli_connect($server, $username, $password, $database, $port);
