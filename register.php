@@ -11,7 +11,7 @@
 
 <!--Asking User For Password-->
 <label>Password: </label> <br>
-<input type="password" name="password" required> <br><br>
+<input type="password" name="password" required minlength="8"> <br><br>
 
 <!--Submit Button-->
 <input type="submit" name="register" value="Register">

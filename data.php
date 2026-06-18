@@ -12,7 +12,7 @@ $password =(string) $_POST['password'];
 //Declaring A Variable To Assign With Our Query
 $query = "select * from users where email='$email'";
 //Executing The Query
-$execute = mysqli_query($connect, $query);
+$execute = mysqli_query($conn , $query);
 
 //Checking If The Email Does Not Have An Account By Fetching The Row
 //O Means False Then 1 Means True
@@ -52,7 +52,7 @@ $password = (string) $_POST['password'];
 
 $query_check = "select * from users where email='$email'";
 //Executing The Query
-$checking = mysqli_query($connect,$query_check);
+$checking = mysqli_query($conn ,$query_check);
 
 if(mysqli_fetch_row($checking) > 0){
 echo "User already have an account !!";
@@ -63,9 +63,9 @@ else{
 //Query To Insert the User Values
 $hash = password_hash($password, PASSWORD_DEFAULT);
 //Passing The Hashed Password
-$user_store = "insert into user values(Null, '$name','$email',$hashs)";
+$user_store = "INSERT INTO users VALUES (NULL, '$name', '$email', '$hash')";
 //Executing The Query
-$done =mysqli_query($connect,$user_store);
+$done =mysqli_query($conn ,$user_store);
 
 if($done){
 
