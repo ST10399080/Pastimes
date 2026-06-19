@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jun 18, 2026 at 09:30 PM
+-- Generation Time: Jun 19, 2026 at 10:36 AM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `clothingstore`
 --
+CREATE DATABASE IF NOT EXISTS `clothingstore` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `clothingstore`;
 
 -- --------------------------------------------------------
 
