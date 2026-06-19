@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="css/style.css">
+
 <!--Opening The Form Tag-->
 <form method="post" action="data.php">
    

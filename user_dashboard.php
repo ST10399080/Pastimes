@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="css/style.css">
+
 session_start();
 include "DBConn.php";
 
