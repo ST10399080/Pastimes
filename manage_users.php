@@ -7,7 +7,7 @@ if (!isset($_SESSION['adminID'])) {
     exit();
 }
 
-$query = "SELECT * FROM tbluser WHERE status='pending'";
+$query = "SELECT * FROM tbluser WHERE role='customer' AND status='pending'";
 $result = mysqli_query($conn, $query);
 
 while ($user = mysqli_fetch_assoc($result)) {

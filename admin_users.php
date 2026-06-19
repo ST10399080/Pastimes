@@ -2,6 +2,7 @@
 
 include "DBConn.php";
 
+
 $query = "SELECT * FROM tbluser WHERE status='pending'";
 
 $result = mysqli_query($conn, $query);
