@@ -413,6 +413,54 @@ Both buyers and sellers have a unified dashboard to manage:
 
 ## 📁 Project Structure
 
+Folder PATH listing for volume Windows
+Volume serial number is 8A36-9E1B
+C:.
+|   data.php
+|   DBConn.php
+|   home.php
+|   index.php
+|   logout.php
+|   register.php
+|   structure.txt
+|   user_dashboard.php
+|   
++---admin
+|       admin_dashboard.php
+|       admin_login.php
+|       admin_login_process.php
+|       admin_users.php
+|       approve_user.php
+|       delete_user.php
+|       edit_user.php
+|       manage_users.php
+|       reject_user.php
+|       
++---cart
+|       cart.php
+|       cart_add.php
+|       
++---css
+|       styles.css
+|       
++---database
+|       clothingstore.sql
+|       createTable.php
+|       
++---docs
+|       LICENSE
+|       README.md
+|       userData.txt
+|       
++---orders
+|       checkout.php
+|       
+\---shop
+        Create shop.php
+        loadClothingStore.php
+        search.php
+        upload.php
+
 ## 📄 License
 
 This Project Is Licensed Under The MIT License.
