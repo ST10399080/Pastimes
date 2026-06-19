@@ -1,85 +1,79 @@
 <?php
-//Including The db_connect Script To Help Execute Queries
-include "db_connect.php";
 
-//Checking If The Login Button Was Clicked
-if(isset($_POST['login'])){
+// Include database connection
+include "DBConn.php";
 
-$name =(string) $_POST['name'];
-$email =(string) $_POST['email'];
-$password =(string) $_POST['password'];
+/* =========================================================
+   REGISTRATION SECTION
+========================================================= */
 
-//Declaring A Variable To Assign With Our Query
-$query = "select * from users where email='$email'";
-//Executing The Query
-$execute = mysqli_query($conn , $query);
+if (isset($_POST['register'])) {
 
-//Checking If The Email Does Not Have An Account By Fetching The Row
-//O Means False Then 1 Means True
-if(mysqli_fetch_row($execute) > 0){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
-//If The Email Is Found, Check The Hashed Password
-$hashed_password = mysqli_fetch_assoc($execute);
+    // Check if user already exists
+    $check = "SELECT * FROM tbluser WHERE userEmail='$email'";
+    $result = mysqli_query($conn, $check);
 
-if(password_verify($password , $hashed_password['password']) > 0){
+    if (mysqli_fetch_assoc($result)) {
+        echo "User already has an account!";
+        exit();
+    }
 
-    //If The User Is Found
-    echo "User is found";
+    // Hash password
+    $hash = password_hash($password, PASSWORD_DEFAULT);
 
-}else{
+    // Insert user as pending
+    $insert = "
+        INSERT INTO tbluser
+        (userName, userEmail, userPassword, role, status)
+        VALUES
+        ('$name', '$email', '$hash', 'customer', 'pending')
+    ";
 
-    //If The User's Password Is Not Correct Or Is Dubious
-    echo "User not found, incorrect email or password";
+    if (mysqli_query($conn, $insert)) {
+        echo "Registration successful! Await admin approval.";
+    } else {
+        echo "Registration failed.";
+    }
 }
 
-}
-else{
-    //When The Email Does Not Have An Account
-    echo "User not found, incorrect email or password !!";
-}
 
-}
+/* =========================================================
+   LOGIN SECTION
+========================================================= */
 
-//Checking When The Button Register Is Clicked
-if(isset($_POST['register'])){
+if (isset($_POST['login'])) {
 
-//Declaring Variable And Assigning Them
-$name = (string) $_POST['name'];
-$email = (string) $_POST['email'];
-$password = (string) $_POST['password'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
-//Check If Email Trying To Register Does Have An Account Or Not
+    // Get user from database
+    $query = "SELECT * FROM tbluser WHERE userEmail='$email'";
+    $result = mysqli_query($conn, $query);
 
-$query_check = "select * from users where email='$email'";
-//Executing The Query
-$checking = mysqli_query($conn ,$query_check);
+    $user = mysqli_fetch_assoc($result);
 
-if(mysqli_fetch_row($checking) > 0){
-echo "User already have an account !!";
+    // Check if user exists
+    if (!$user) {
+        echo "User not found!";
+        exit();
+    }
 
-}
-else{
-//When It Return The 0, We Register The User
-//Query To Insert the User Values
-$hash = password_hash($password, PASSWORD_DEFAULT);
-//Passing The Hashed Password
-$user_store = "INSERT INTO users VALUES (NULL, '$name', '$email', '$hash')";
-//Executing The Query
-$done =mysqli_query($conn ,$user_store);
+    // CHECK STATUS FIRST (IMPORTANT FOR YOUR ASSIGNMENT)
+    if ($user['status'] != 'active') {
+        echo "Your account is awaiting admin approval.";
+        exit();
+    }
 
-if($done){
-
-    //Outputting A Message
-    echo "User account created !!"; 
-
-}else{
-
-    //When Not Executed
-    echo "User account failed to be created!!";
-}
-
-}
-
+    // Verify password
+    if (password_verify($password, $user['userPassword'])) {
+        echo "Login successful!";
+    } else {
+        echo "Incorrect password!";
+    }
 }
 
 ?>

@@ -18,7 +18,7 @@
 define('DB_HOST',     'localhost');   // MySQL server host
 define('DB_USER',     'root');        // MySQL username (change for production)
 define('DB_PASS',     '');            // MySQL password  (change for production)
-define('DB_NAME',     'ClothingStore'); // Target database name
+define('DB_NAME',     'clothingstore'); // Target database name
 // ─────────────────────────────────────────────────────────
 
 /**
