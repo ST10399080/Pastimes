@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/style.css">
+
 include "DBConn.php";
 
 $query = "SELECT * FROM tblproduct";

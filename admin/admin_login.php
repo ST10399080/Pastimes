@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/style.css">
+
 <form action="admin_login_process.php" method="post">
 
 <input type="email" name="email" placeholder="Admin Email" required>

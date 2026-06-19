@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/style.css">
+
 <?php
 //Get All The Collected Details Of The Product
 $name= $_POST["name"];

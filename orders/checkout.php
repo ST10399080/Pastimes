@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/style.css">
+
 $orderNumber = rand(10000,99999);
 
 INSERT INTO tblorder (orderNumber) VALUES ($orderNumber);
